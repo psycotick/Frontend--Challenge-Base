@@ -1,11 +1,9 @@
 import React from 'react'
 
-const Header = () => {
+export default function Dashboard() {
     return (
         <div>
-            Header
+            Dashboard
         </div>
     )
 }
-
-export default Header

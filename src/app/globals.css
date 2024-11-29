@@ -4,6 +4,17 @@
 
 @layer base {
   :root {
-    --radius: 0.5rem
+    --radius: 0.5rem;
+    --mainColor: #000000;
+  }
+}
+
+@layer components {
+  .bg-main {
+    background-color: var(--mainColor);
+  }
+
+  .text-main {
+    color: var(--mainColor);
   }
 }
