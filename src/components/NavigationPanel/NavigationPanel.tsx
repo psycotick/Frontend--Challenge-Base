@@ -4,10 +4,12 @@ import { GenreCombobox } from "./GenreCombobox";
 
 export function NavigationPanel() {
     return (
-        <div className="fixed left-0 top-[78px] h-[calc(100vh-78px)] w-[260px] bg-[#262626] p-4">
-            <SearchBox />
-            <div className="mt-4">
-                <GenreCombobox />
+        <div className="h-full w-full p-4 bg-[#262626] rounded-lg shadow-md">
+            <div className="bg-[#262626] p-4 rounded-lg shadow-sm"> 
+                <SearchBox />
+                <div className="mt-4">
+                    <GenreCombobox />
+                </div>
             </div>
         </div>
     );

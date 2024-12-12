@@ -17,4 +17,11 @@
   .text-main {
     color: var(--mainColor);
   }
+
+  body {
+    background-color: #3b3a39;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
 }
